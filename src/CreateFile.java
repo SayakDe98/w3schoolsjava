@@ -17,7 +17,7 @@ public class CreateFile {
         catch (Exception e)
         {
             System.out.println("An error occured!");
-            e.getStackTrace();
+            e.printStackTrace();
         }
     }
 }
