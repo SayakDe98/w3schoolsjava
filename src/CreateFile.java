@@ -6,7 +6,7 @@ public class CreateFile {
     public static void main(String[]args)
     {
         try {
-            File obj=new File("Filename.txt");
+            File obj=new File("Filename.txt");//C:\\Users\\SAYAK\\Filename.txt use this pathname to include directory
 
             if (obj.createNewFile())
                 System.out.println("File created:"+obj.getName());
